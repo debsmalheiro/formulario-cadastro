@@ -1,0 +1,68 @@
+body {
+    margin:150px;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.container {
+    width: 960px;
+    height: 600px;
+    margin: 0 auto 0 auto;
+}
+
+.esquerda {
+    display: inline-block;
+    flex: 1;  
+    margin-left: 100px;
+}
+
+.direita {
+    display: inline-block;
+    flex: 1;
+    margin-left: 150px;
+}
+
+.botoes {
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.botoes input {
+    background-color: rgb(87, 85, 85);
+    color: #FFFFFF;
+}
+
+.esquerda input {
+    display: block;
+}
+
+.esquerda select {
+    display: block;
+}
+
+.direita input {
+    display: block;
+}
+
+.nome,
+.RG,
+.pai,
+.escolaridade,
+.tel,
+.email,
+.nasc,
+.CPF,
+.mae,
+.profissao, 
+.cel {
+    margin: 20px;
+}
+
+input,
+select {
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgb(219, 219, 219);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <div class="esquerda">
+                <div class="nome">
+                    Nome Completo:<input required size="35" maxlength="35" type="text" name="nome" placeholder="Nome Completo" />
+                </div>
+                <div class="RG">
+                    RG:<input required type="number" name="RG" placeholder="00.000.000-0" />
+                </div>
+                <div class="pai">
+                    Pai:<input size="35" maxlength="35" type="text" name="nome-do-pai" placeholder="Nome do Pai" />
+                </div>
+                <div class="escolaridade">
+                    Escolaridade:
+                    <select name="escolaridade">
+                        <option>Selecione</option>
+                        <option>Ensino Fundamental (1º Grau) Interrompido</option>
+                        <option>Ensino Fundamental (1º Grau) Cursando</option>
+                        <option>Ensino Fundamental (1º Grau) Completo</option>
+                        <option>Ensino Médio (2º Grau) Interrompido</option>
+                        <option>Ensino Médio (2º Grau) Cursando</option>
+                        <option>Ensino Médio (2º Grau) Completo</option>
+                        <option>Formação superior (interrompida)</option>
+                        <option>Formação superior (cursando)</option>
+                        <option>Formação superior completa</option>
+                        <option>Pós-graduação no nível Especialização</option>
+                        <option>Pós-graduação no nível Mestrado</option>
+                        <option>Pós-graduação no nível Doutorado</option>
+                    </select>
+                </div>
+                <div class="tel">
+                    Telefone:<input type="number" name="telefone" placeholder="(DDD) 0000-0000" />
+                </div>
+                <div class="email">
+                    E-mail:<input required type="email" name="email" placeholder="exemplo@email.com" />
+                </div>
+
+            </div>
+
+
+            <div class="direita">
+                <div class="nasc">
+                    Data de Nascimento: <input type="date" name="nasc">
+                </div>
+                <div class="CPF">
+                    CPF:<input required type="number" name="CPF" placeholder="000.000.000-0" />
+                </div>
+                <div class="mae">
+                    Mãe:<input size="35" maxlength="35" required type="text" name="nome-da-mae" placeholder="Nome da Mãe" />
+                </div>
+                <div class="profissao">
+                    Profissão:<input maxlength="20" type="text" name="profissao" placeholder="Profissão" />
+                </div>
+                <div class="cel">
+                    Celular:<input required type="number" name="celular" placeholder="(DDD) 90000-0000" />
+                </div>
+
+            </div>
+
+            <div class="botoes">
+                <input type="submit" name="cadastrar" value="Cadastrar">
+                <input type="reset" name="limpar campos" value="Limpar Campos">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
