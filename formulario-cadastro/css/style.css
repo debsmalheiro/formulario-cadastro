@@ -1,35 +1,36 @@
 body {
-    margin:150px;
+    margin: 0;
     font-family: Arial;
     font-size: 16px;
 }
 
 .container {
-    width: 960px;
-    height: 600px;
+    display: flex;
     margin: 0 auto 0 auto;
 }
 
 .esquerda {
     display: inline-block;
-    flex: 1;  
-    margin-left: 100px;
+    flex: 1;
 }
 
 .direita {
     display: inline-block;
     flex: 1;
-    margin-left: 150px;
 }
 
 .botoes {
     margin-top: 20px;
-    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .botoes input {
     background-color: rgb(87, 85, 85);
     color: #FFFFFF;
+    margin-left: 10px;
 }
 
 .esquerda input {
@@ -53,7 +54,7 @@ body {
 .nasc,
 .CPF,
 .mae,
-.profissao, 
+.profissao,
 .cel {
     margin: 20px;
 }
